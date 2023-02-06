@@ -1,16 +1,17 @@
 table,th,td{
 	border: 5px double darkred;
-	border-collapse: collapse;
+	/*border-collapse: collapse;*/
 	text-align: center;
 }
 table{
 	width: 100%;
 	height: 50%;
+      border-spacing: 20px;
 }
 th,td{
 	height: 50px;
 	width: 100px;
-	padding-right: 10px;
+	padding: 15px;
 	vertical-align: middle;
 }
 th{
@@ -25,6 +26,14 @@ tr:nth-child(even){
 tr:nth-child(odd){
 	background-color: blanchedalmond;
 	color: black;
+}
+tr:nth-child(odd) td:hover{
+      background-color: orangered;
+      color: cadetblue;
+}
+tr:nth-child(even) td:hover{
+      background-color: aliceblue;
+      color: green;
 }
 .tr1 th:hover{
       background-color: coral;
@@ -76,8 +85,9 @@ tr:nth-child(odd){
       color: darkred;
       border-radius: 50%;
 }
-i.fa{
+/*i.fa{
     color: purple;
-    font-size: 64px;
+    font-size: 50px;
     padding: 5px 10px;
 }
+*/
