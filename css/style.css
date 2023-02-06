@@ -1,0 +1,83 @@
+table,th,td{
+	border: 5px double darkred;
+	border-collapse: collapse;
+	text-align: center;
+}
+table{
+	width: 100%;
+	height: 50%;
+}
+th,td{
+	height: 50px;
+	width: 100px;
+	padding-right: 10px;
+	vertical-align: middle;
+}
+th{
+	background-color: darkgreen;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: gray;
+	color: white;
+}
+tr:nth-child(odd){
+	background-color: blanchedalmond;
+	color: black;
+}
+.tr1 th:hover{
+      background-color: coral;
+      color: darkred;
+      border-radius: 50%;
+}
+.tr2 td:hover{
+      background-color: coral;
+      color: darkred;
+      border-radius: 50%;
+}
+.tr3 td:hover{
+      background-color: coral;
+      color: darkred;
+      border-radius: 50%;
+}
+
+.tr4 td:hover{
+      background-color: coral;
+      color: darkred;
+      border-radius: 50%;
+}
+
+.tr5 td:hover{
+      background-color: coral;
+      color: darkred;
+      border-radius: 50%;
+}
+
+.tr6 td:hover{
+      background-color: coral;
+      color: darkred;
+      border-radius: 50%;
+}
+
+.tr7 td:hover{
+      background-color: coral;
+      color: darkred;
+      border-radius: 50%;
+}
+
+.tr8 td:hover{
+      background-color: coral;
+      color: darkred;
+      border-radius: 50%;
+}
+.tr9 td:hover{
+      background-color: coral;
+      color: darkred;
+      border-radius: 50%;
+}
+i.fa{
+    color: purple;
+    font-size: 64px;
+    padding: 5px 10px;
+}
